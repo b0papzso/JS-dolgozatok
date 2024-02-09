@@ -1,6 +1,6 @@
 // All or Nothing
 function possiblyPerfect(key,answers) {
-    let blank = 0;
+        let blank = 0;
         let points = 0;
         for (let i = 0; i < answers.length; i++) {
             if(key[i] == answers[i])
@@ -17,7 +17,8 @@ function possiblyPerfect(key,answers) {
         {
             return true
         }
-        else{ return false}}
+        else{ return false}
+}
 
 
 
